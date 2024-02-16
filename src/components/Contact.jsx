@@ -38,7 +38,7 @@ const Contact = () => {
         'template_8joebcp',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Nilesh Pawar",
           from_email: form.email,
           to_email: "nilpawar187234@gmail.com",
           message: form.message,
