@@ -34,13 +34,13 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_94u05hs',
-        'template_8joebcp',
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Nilesh Pawar",
           from_email: form.email,
-          to_email: "nilpawar187234@gmail.com",
+          to_email: import.meta.env.VITE_EMAIL_ID,
           message: form.message,
         },
         'lRn8M2sTigoOhljyy'
