@@ -30,6 +30,7 @@ import cravings from "./cravings.png";
 import tindog from "./tinDog.png";
 import weatherapp from "./weatherApp.png";
 import sakasi from "./company/sakasi.png";
+import finessefleet from "./company/finessefleet.png"
 import bootstrap from "./tech/bootstrap.png";
 import scroll from "./scroll.png";
 
@@ -58,6 +59,7 @@ export {
   typescript,
   threejs,
   sakasi,
+  finessefleet,
   cravings,
   tindog,
   weatherapp,

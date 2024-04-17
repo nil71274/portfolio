@@ -13,6 +13,7 @@ import {
     mongodb,
     git,
     sakasi,
+    finessefleet,
     bootstrap,
     cravings,
     tindog,
@@ -93,16 +94,30 @@ import {
   
   const experiences = [
     {
+      title: "Software Engineer Intern",
+      company_name: "FinesseFleet",
+      icon: finessefleet,
+      iconBg: "#E6DEDD",
+      date: "Feb 2024 - Ongoing...",
+      points: [
+        "I spearheaded the creation of a robust MVP for an LMS by leveraging Next.js and Node.js. Our stack included Next.js for seamless server-side rendering, while Node.js powered the backend logic.",
+        "To enhance performance and scalability, we incorporated Redis as our in-memory database, allowing for efficient caching and real-time data retrieval.",
+        "For multimedia content management, we seamlessly integrated Cloudinary, enabling smooth image and video uploads, transformations, and delivery.",
+        "To facilitate secure and seamless payments, we harnessed the power of Razorpay, ensuring smooth transactions for course enrollments."
+      ],
+    },
+    {
       title: "Full stack Developer Intern",
       company_name: "RISEUP by Sakasi",
       icon: sakasi,
       iconBg: "#E6DEDD",
       date: "June 2023 - July 2023",
       points: [
-        "Developing and maintaining THEBODYHUT.IN website using Node.Js and other related technologies.",
-        "Collaborating with designer, product manager to create high-quality output.",
-        "Created Coupon code banners for webpage and instagram.",
-        "Implementing responsive design."
+        "During my internship at thebodyhut.in, I had an enriching experience working with cutting-edge technologies.",
+        "Our stack included Node.js, Express.js, and MongoDB. As part of the team, I contributed to building a robust user management system.",
+        "One of my key achievements was creating a seamless coupon code system, allowing users to redeem discounts effortlessly.",
+        "Additionally, I developed an inventory section within the admin panel, streamlining product management.",
+        "The dynamic combination of Node.js, EJS for templating, and MongoDB for data storage empowered us to deliver a reliable and scalable solution. "
       ],
     }
   ];
